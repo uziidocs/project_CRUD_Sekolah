@@ -100,6 +100,14 @@ $data = mysqli_fetch_assoc($query);
             value="<?= htmlspecialchars($data['no_hp']); ?>"
         >
 
+        <label>Email</label>
+        
+        <input 
+            type="email" 
+            name="email"
+            value="<?= $data['email']; ?>"
+        >
+
         <button type="submit">Update</button>
 
         <a href="index.php">Kembali</a>

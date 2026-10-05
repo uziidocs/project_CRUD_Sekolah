@@ -48,6 +48,9 @@
         <label>No. HP</label>
         <input type="text" name="no_hp">
 
+        <label>Email</label>
+        <input type="email" name="email">
+
         <button type="submit">Simpan</button>
 
         <a href="index.php">Kembali</a>
